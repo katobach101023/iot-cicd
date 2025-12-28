@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # Đây là nội dung hiển thị khi bạn truy cập vào server
-    return "Chào mừng bạn đến với IoT API Server - Phien ban 2.0"
+    return "Chào mừng bạn đến với IoT API Server - Phien ban 1.0"
 
 @app.route('/status')
 def status():
